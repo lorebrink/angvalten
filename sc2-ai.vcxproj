@@ -143,6 +143,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="terran_bot.cpp" />
+    <ClCompile Include="zerg_bot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="terran_bot.h" />
+    <ClInclude Include="zerg_bot.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
