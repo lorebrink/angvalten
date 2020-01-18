@@ -31,7 +31,7 @@ int main(int argc, char* argv[]) {
 
 	Bot bot;
 	coordinator.SetParticipants({
-		CreateParticipant(Race::Terran, &bot),
+		CreateParticipant(Race::Zerg, &bot),
 		CreateComputer(Race::Zerg)
 		});
 
